@@ -17,7 +17,32 @@
         <span class="bg-animate2"></span>
 
         <div class="form-box login">
-            <h2>Login</h2>
+            <h2 class="animation" style="--i:0;">Login</h2>
+            <form action="#">
+                <div class="input-box animation" style="--i:1;">
+                    <input type="text" required>
+                    <label>Username</label>
+                    <i class='bx bxs-user'></i>
+                </div>
+                <div class="input-box animation" style="--i:2;">
+                    <input type="password" required>
+                    <label>Password</label>
+                    <i class='bx bxs-lock-alt'></i>
+                </div>
+                <button type="submit" class="btn animation" style="--i:3;">Login</button>
+                <div class="longreg-link animation" style="--i:4;">
+
+                    <p>Don't have an account? <a href="#" class="register-link">Sign Up</a></p>
+                </div>
+            </form>
+        </div>
+        <div class="info-text login">
+            <h2 class="animation" style="--i:0;">Welcome Back</h2>
+            <p class="animation" style="--i:1;">Lorem ipsum, dolor sit amet consectetur adipisicing.</
+                p>
+        </div>
+        <div class="form-box register">
+            <h2>Sign Up</h2>
             <form action="#">
                 <div class="input-box">
                     <input type="text" required>
@@ -25,48 +50,32 @@
                     <i class='bx bxs-user'></i>
                 </div>
                 <div class="input-box">
+                    <input type="email" required>
+                    <label>Email</label>
+                    <i class='bx bxs-envelope'></i>
+                </div>
+                <div class="input-box">
                     <input type="password" required>
                     <label>Password</label>
                     <i class='bx bxs-lock-alt'></i>
                 </div>
-                <button type="submit" class="btn">Login</button>
+                <button type="submit" class="btn">Sign Up</button>
                 <div class="longreg-link">
-                    <p>Don't have an account? <a href="#" class="register-link">Sign Up</a></p>
+                    <p>Already have an account? <a href="#" class="login-link">Login</a></p>
                 </div>
             </form>
         </div>
         <div class="info-text login">
             <h2>Welcome Back</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-    </div>
+        </div>
 
-    <div class="form-box register">
-        <h2>Sign Up</h2>
-        <form action="#">
-            <div class="input-box">
-                <input type="text" required>
-                <label>Username</label>
-                <i class='bx bxs-user'></i>
-            </div>
-            <div class="input-box">
-                <input type="password" required>
-                <label>Password</label>
-                <i class='bx bxs-lock-alt'></i>
-            </div>
-            <button type="submit" class="btn">Login</button>
-            <div class="longreg-link">
-                <p>Don't have an account? <a href="#" class="register-link">Sign Up</a></p>
-            </div>
-        </form>
+        <div class="info-text register">
+            <h2>Welcome Back</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+        </div>
     </div>
-    <div class="info-text login">
-        <h2>Welcome Back</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-     </div>
-   </form>
- </div>
-
-</div>
+    <script src="script.js"></script>
 </body>
 
 </html>
